@@ -9,6 +9,9 @@
     .listaFeatures{
         border-top: 1px solid gray;
     }
+    #btnInfo{
+        display: none;
+    }
     .active{
         border-bottom: none !important;
         a {
@@ -26,13 +29,26 @@
     }
     .card3{
         margin-top: 30px;
-        }   
+        }  
+        
+    .form-control{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .containerBtnFooter{
+        margin-left: 16px !important;
+        .btn{
+            width: 90%;
+            margin-top: 10px;
+        }
+    }
+    .containerTexto{
+        width: 73%;
+    }
+    
 }
 
-@media (max-width: 576px){
-    #btnInfo{
-        display: none;
-    } 
+@media (max-width: 576px){ 
     .containerFondo{
         top: 4em;
     }
@@ -42,6 +58,8 @@
     .containerBookmark{
         margin-top: 100px;
     }
-    
+    .containerTexto{
+        width: 86%;
+    }
 }
 
