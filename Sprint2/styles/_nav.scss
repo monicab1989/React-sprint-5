@@ -1,0 +1,20 @@
+.dropdown{
+    cursor: pointer;
+}
+
+.nav{
+    &-tabs{
+        border-bottom: 0px solid !important;
+    }
+    &-link{
+        color:black;
+    }
+}
+
+.active{
+    border-bottom: 3px solid $success !important;
+    a{
+        margin-bottom: 9px;
+    }
+    
+}

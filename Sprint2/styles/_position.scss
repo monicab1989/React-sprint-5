@@ -1,0 +1,33 @@
+.containerImg{
+    position: relative;
+}
+.imagenIlustracion{
+    width: 98%;
+}
+
+.containerFondo{
+    position: absolute;
+    width: 80%;
+    height: 85%;
+    z-index: -1;
+    top: 7em;
+    border-bottom-left-radius: 8em;
+    left: 28%;
+}
+.containerImg2{
+    position: relative;
+}
+.containerFondo2{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    z-index: -1;
+    top: 6em;
+    border-bottom-right-radius: 8em;
+    right: 28%;
+}
+
+.imagenIlustracion2{
+    width: 90%;
+
+}

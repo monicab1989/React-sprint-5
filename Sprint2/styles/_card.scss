@@ -1,0 +1,23 @@
+.card{
+    box-shadow: $card-box-shadow;
+    &-img-top{
+        width: 7rem;
+    }
+    p{
+        border-bottom: 4px dotted #E5E7E9;
+        margin-bottom: 10;
+        padding-bottom: 30px;
+    }
+}
+.card2{
+    margin-top: 30px;
+}
+.card3{
+    margin-top: 60px;
+}
+.card1,
+.card2,
+.card3{
+    height: 290px;
+    width: auto;
+}

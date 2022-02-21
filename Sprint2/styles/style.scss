@@ -1,0 +1,25 @@
+@import './variables';
+@import "../bootstrap/scss/bootstrap";
+@import './nav';
+@import './position';
+
+li{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.btn{
+    box-shadow: $box-shadow;
+    
+    &-success{
+    color: white;
+    }
+}
+
+.containerDowload{
+    margin-top: 120px !important;
+}
+
+@import './media';
