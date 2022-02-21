@@ -1,10 +1,17 @@
 .accordion-button.collapsed::after{
     color: $accordion-icon-color;
 }
+.accordion-button.collapsed:hover{
+    color: $accordion-icon-active-color;
+}
 
 .accordion-item{
     border-right: none;
     border-left: none;
     width: 60%;
     margin: 0 auto; 
+}
+
+.accordion-header:hover{
+        color: $success;
 }

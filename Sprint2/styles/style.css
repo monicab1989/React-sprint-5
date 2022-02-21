@@ -12047,11 +12047,19 @@ fieldset:disabled .btn {
   color: #5265E1;
 }
 
+.accordion-button.collapsed:hover {
+  color: #FA5959;
+}
+
 .accordion-item {
   border-right: none;
   border-left: none;
   width: 60%;
   margin: 0 auto;
+}
+
+.accordion-header:hover {
+  color: #FA5959;
 }
 
 .form-control {
@@ -12097,6 +12105,57 @@ fieldset:disabled .btn {
   margin-top: 7px;
   width: 13%;
   z-index: 1;
+}
+
+.nav-link:hover {
+  color: #FA5959;
+}
+
+#btnLogin:hover {
+  background-color: white !important;
+  color: #FA5959;
+  border: 2px solid #FA5959;
+}
+
+a:hover {
+  color: #FA5959;
+}
+
+.containerFooter a {
+  color: white;
+  text-decoration: none;
+}
+
+.containerFooter a:hover {
+  color: #FA5959;
+}
+
+.containerFooter .logoRedes:hover {
+  background-color: #FA5959;
+  color: #FA5959;
+}
+
+.form-control:focus {
+  border: 3px solid #FA5959;
+}
+
+#btn1:hover {
+  background-color: white !important;
+  color: #5265E1 !important;
+}
+
+#btn2:hover {
+  background-color: white;
+}
+
+.card .btn:hover {
+  background-color: white;
+  color: #5265E1;
+}
+
+.containerBtnFooter .btn:hover {
+  background-color: white;
+  color: #FA5959;
 }
 
 li {

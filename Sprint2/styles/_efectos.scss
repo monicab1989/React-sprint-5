@@ -1,0 +1,52 @@
+.nav-link:hover{
+    color: $success;
+}
+
+#btnLogin:hover{
+    background-color: white !important;
+    color: $success;
+    border: 2px solid $success;
+}
+
+a:hover{
+    color: $success;
+}
+
+.containerFooter{
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            color: $success;
+        }
+    }
+    .logoRedes:hover{
+        background-color: $success;
+        color: $success;
+    }
+}
+
+.form-control:focus{
+    border: 3px solid $success;
+}
+#btn1:hover{
+    background-color: white !important;
+    color: $primary !important;
+}
+#btn2:hover{
+    background-color: white;
+}
+
+.card{
+    .btn:hover{
+        background-color: white;
+        color: $primary;
+    }
+}
+
+.containerBtnFooter{
+    .btn:hover{
+        background-color: white;
+        color: $success;
+    }
+}
