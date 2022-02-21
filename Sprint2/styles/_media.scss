@@ -26,10 +26,11 @@
     }
     .card{
         margin-right: 50px;
+        &:nth-child(3) {
+            margin-top: 30px;
+        }
     }
-    .card3{
-        margin-top: 30px;
-        }  
+     
         
     .form-control{
         width: 90%;
