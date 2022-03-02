@@ -7,6 +7,11 @@
 @import './footer';
 @import './efectos';
 
+
+#containerFeatures{
+    width: 700px;
+}
+
 li{
     list-style: none;
     a{
@@ -20,6 +25,10 @@ li{
     &-success{
     color: white;
     }
+}
+
+#listaFeatures2, #listaFeatures3{
+    border-bottom: 0.3px solid gray;
 }
 
 .containerDowload{

@@ -12105,6 +12105,18 @@ fieldset:disabled .btn {
   z-index: 1;
 }
 
+#textoBookmark {
+  margin-left: 30px;
+}
+
+.valid-feedback {
+  color: green;
+}
+
+.invalid-feedback {
+  color: red;
+}
+
 .nav-link:hover {
   color: #FA5959;
 }
@@ -12156,6 +12168,10 @@ a:hover {
   color: #FA5959;
 }
 
+#containerFeatures {
+  width: 700px;
+}
+
 li {
   list-style: none;
 }
@@ -12172,6 +12188,10 @@ li a {
 
 .btn-success {
   color: white;
+}
+
+#listaFeatures2, #listaFeatures3 {
+  border-bottom: 0.3px solid gray;
 }
 
 .containerDowload {
@@ -12205,6 +12225,8 @@ li a {
   }
   .card {
     margin-right: 50px;
+    width: 250px;
+    margin-left: 50px;
   }
   .card:nth-child(3) {
     margin-top: 30px;
@@ -12223,6 +12245,9 @@ li a {
   .containerTexto {
     width: 73%;
   }
+  #textoBookmark {
+    margin-left: 185px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -12237,6 +12262,9 @@ li a {
   }
   .containerTexto {
     width: 86%;
+  }
+  #textoBookmark {
+    margin-left: 60px;
   }
 }
 /*# sourceMappingURL=style.css.map */
